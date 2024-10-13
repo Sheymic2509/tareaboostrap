@@ -1,0 +1,35 @@
+.carrera {
+    padding: 5px;
+    background-color: #e6f7ff;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-areas: "header header header"
+                          "bloque1 bloque2 bloque3"
+                          "bloque1 bloque2 bloque3"
+                          "foot foot foot";
+}
+
+.carrera .header {
+    grid-area: header;
+}
+
+.carrera .bloque1 {
+    grid-area: bloque1;
+}
+
+.carrera .bloque2 {
+    grid-area: bloque2;
+}
+
+.carrera .bloque3 {
+    grid-area: bloque3;
+}
+
+.carrera .bloque10 {
+    grid-area: bloque10;
+}
+
+.carrera .foot {
+    grid-area: foot;
+}

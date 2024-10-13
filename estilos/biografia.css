@@ -1,0 +1,30 @@
+.biografia{
+    padding:5px;
+    background-color: aliceblue;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 3fr 2fr 2fr;
+    grid-template-areas: "header header header"
+                          
+                          "cont1 cont2 cont3"
+                          "foot foot foot";
+    
+}
+.biografia .header1{
+    grid-area: header;
+}
+.biografia .nav1{
+    grid-area: nav;
+}
+.biografia .cont11{
+    grid-area: cont1;
+}
+.biografia .cont12{
+    grid-area: cont2;
+}
+.biografia .cont13{
+    grid-area: cont3;
+}
+.biografia .foot1{
+    grid-area: foot;
+}

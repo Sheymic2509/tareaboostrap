@@ -1,0 +1,51 @@
+.musica {
+    padding: 5px;
+    background-color: #e6f7ff;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-areas: "header header header"
+                          
+                          "bloque1 bloque2 bloque3"
+                          "bloque4 bloque5 bloque6"
+                          "bloque7 bloque8 bloque9"
+                          "foot foot foot";
+}
+
+.musica .header {
+    grid-area: header;
+    
+}
+.musica .nav {
+    grid-area: nav;
+}
+.musica .bloque1 {
+    grid-area: bloque1;
+}
+.musica .bloque2 {
+    grid-area: bloque2;
+}
+.musica .bloque3 {
+    grid-area: bloque3;
+}
+.musica .bloque4 {
+    grid-area: bloque4;
+}
+.musica .bloque5 {
+    grid-area: bloque5;
+}
+.musica .bloque6 {
+    grid-area: bloque6;
+}
+.musica .bloque7 {
+    grid-area: bloque7;
+}
+.musica .bloque8 {
+    grid-area: bloque8;
+}
+.musica .bloque9 {
+    grid-area: bloque9;
+}
+.musica .foot {
+    grid-area: foot;
+}

@@ -1,0 +1,42 @@
+.materias {
+    padding: 5px;
+    background-color: #f0f8ff;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-areas: "header header header"
+                          
+                          "bloque11 bloque22 bloque33"
+                          "bloque44 bloque55 bloque66"
+                         
+                          "foot foot foot";
+}
+
+.materias .header {
+    grid-area: header;
+}
+.materias .nav {
+    grid-area: nav;
+}
+.materias .bloque1 {
+    grid-area: bloque11;
+}
+.materias .bloque2 {
+    grid-area: bloque22;
+}
+.materias .bloque3 {
+    grid-area: bloque33;
+}
+.materias .bloque4 {
+    grid-area: bloque44;
+}
+.materias .bloque5 {
+    grid-area: bloque55;
+}
+.materias .bloque6 {
+    grid-area: bloque66;
+}
+
+.materias .foot {
+    grid-area: foot;
+}

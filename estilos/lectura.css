@@ -1,0 +1,47 @@
+.lectura {
+    padding: 5px;
+    background-color: #f2f2f2;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-areas: "header header header"
+                          "nav nav nav"
+                          "bloque1 bloque2 bloque3"
+                          "bloque4 bloque5 bloque6"
+                          "bloque7 bloque8 bloque8"
+                          "foot foot foot";
+}
+
+.lectura .header {
+    grid-area: header;
+}
+.lectura .nav {
+    grid-area: nav;
+}
+.lectura .bloque1 {
+    grid-area: bloque1;
+}
+.lectura .bloque2 {
+    grid-area: bloque2;
+}
+.lectura .bloque3 {
+    grid-area: bloque3;
+}
+.lectura .bloque4 {
+    grid-area: bloque4;
+}
+.lectura .bloque5 {
+    grid-area: bloque5;
+}
+.lectura .bloque6 {
+    grid-area: bloque6;
+}
+.lectura .bloque7 {
+    grid-area: bloque7;
+}
+.lectura .bloque8 {
+    grid-area: bloque8;
+}
+.lectura .foot {
+    grid-area: foot;
+}
